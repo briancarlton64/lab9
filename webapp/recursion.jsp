@@ -158,7 +158,7 @@
     	    return 1;
         }
         
-    	return branchingFactor*nnaryTreeSize(branchingFactor, height);
+    	return branchingFactor*nnaryTreeSize(branchingFactor, height-1);
     }
 
     /** **********************************************************************
