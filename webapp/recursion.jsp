@@ -66,7 +66,7 @@
      */
     public int fibonacci(int n)
     {
-        //TODO
+        return 0;
     }
 
     
@@ -104,12 +104,12 @@
     
         public int getValue()
         {
-    	    //TODO
+    	   return 0;
         }
     
         public ArrayList<Tree> getChildren()
         {
-    	    //TODO
+    	    return null;
         }
     
         public void add(Tree child)
@@ -151,7 +151,7 @@
     	    //TODO
         }
         
-    	//TODO
+    	return 0;
     }
 
     /** **********************************************************************
@@ -164,7 +164,7 @@
      */
     public int treeSum(Tree tree)
     {
-    	//TODO
+    	return 0;
     }
     
     /** **********************************************************************
@@ -249,6 +249,7 @@
         {
         	return area + circledSquared(!square, length * Math.sqrt(2), depth - 1);
     	}
+        return 0;
     }
 %>
 <center>
