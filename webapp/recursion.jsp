@@ -106,7 +106,8 @@
     
         public Tree(int value)
         {
-    	    this.value = value;
+    	    children = new ArrayList<>();
+            this.value = value;
         }
     
         public int getValue()
@@ -171,7 +172,7 @@
      */
     public int treeSum(Tree tree)
     {
-    	if(tree.getChildren().size()==0)
+    	if(tree.getChildren().isEmpty())
     	{
     		return tree.getValue();
     	}
