@@ -265,7 +265,6 @@
         {
         	return area + circledSquared(!square, length * Math.sqrt(2), depth - 1);
     	}
-        return 0;
     }
 %>
 <center>
