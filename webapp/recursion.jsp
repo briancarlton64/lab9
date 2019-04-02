@@ -101,27 +101,27 @@
      */
     protected final class Tree
     {
-        private ArrayList<Tree> children;
+         private ArrayList<Tree> children;
         private int value;
     
         public Tree(int value)
         {
-    	    //TODO
+    	    this.value = value;
         }
     
         public int getValue()
         {
-    	   return 0;
+    	   return value;
         }
     
         public ArrayList<Tree> getChildren()
         {
-    	    return null;
+    	    return children;
         }
     
         public void add(Tree child)
         {
-    	    //TODO
+    	    children.add(child);
         }
     }
     
